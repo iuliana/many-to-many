@@ -1,6 +1,6 @@
 == Many-to-Many Correct configuration example
 
-This repository is a simple SPring Boot project that demonstrates the correct configuration of a Many-to-Many relationship.
+This repository is a simple Spring Boot project that demonstrates the correct configuration of a Many-to-Many relationship.
 
 We have a Many-to-Many relationship between Singer and Instrument entities.
 
@@ -24,7 +24,8 @@ In case this is not obvious, the following image depicts the relationship betwee
 
 image::Singer_Instrument_Tables.png[SINGER_INSTRUMENT table]
 
-Just run the _*src/main/java/com/tables/manytomany/ManyToManyApplication.java*_ class to generate the tables
+Just run the _*src/main/java/com/tables/manytomany/ManyToManyApplication.java*_ class to generate the tables.
+Test that the application was initialized correctly by accessing: http://localhost:8081/
 
 == Getting Started with Spring Boot
 
